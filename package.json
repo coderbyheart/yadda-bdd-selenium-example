@@ -18,8 +18,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:fintura/yadda-bdd-selenium-example.git"
+    "url": "git@github.com:coderbyheart/yadda-bdd-selenium-example.git"
   },
+  "homepage": "https://github.com/coderbyheart/yadda-bdd-selenium-example#readme",
   "author": "Fintura GmbH | https://fintura.de/",
   "license": "MIT"
 }

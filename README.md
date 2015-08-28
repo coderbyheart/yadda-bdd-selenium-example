@@ -8,4 +8,4 @@
 
 Note: The tests in features are written for the calculator on fintura.de
 
-    npm test
+    SELENIUM_TEST_HOST="https://fintura.de" npm test

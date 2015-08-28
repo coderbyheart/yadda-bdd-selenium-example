@@ -1,0 +1,25 @@
+{
+  "name": "yadda-bdd-selenium-example",
+  "version": "0.0.1",
+  "description": "Demonstrate the use of yadda with selenium to run website tests",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "chromedriver": "^2.16.0",
+    "glob": "^5.0.14",
+    "lodash": "^3.10.0",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
+    "selenium-webdriver": "^2.46.1",
+    "toposort": "^0.2.10",
+    "yadda": "^0.15.2"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --reporter=spec --timeout=30000 tests/runtests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fintura/yadda-bdd-selenium-example.git"
+  },
+  "author": "Fintura GmbH | https://fintura.de/",
+  "license": "MIT"
+}

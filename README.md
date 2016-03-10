@@ -1,4 +1,6 @@
-# Demonstrate the use of yadda with selenium to run website tests
+# Use yadda with selenium to run website tests
+
+Slides: https://goo.gl/03zXZY
 
 ## Install dependencies
 

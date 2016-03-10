@@ -3,15 +3,15 @@
   "version": "0.0.1",
   "description": "Demonstrate the use of yadda with selenium to run website tests",
   "dependencies": {
-    "chai": "^3.2.0",
-    "chromedriver": "^2.16.0",
-    "glob": "^5.0.14",
-    "lodash": "^3.10.0",
-    "mocha": "^2.2.5",
-    "phantomjs": "^1.9.17",
-    "selenium-webdriver": "^2.46.1",
-    "toposort": "^0.2.10",
-    "yadda": "^0.15.2"
+    "chai": "^3.5.0",
+    "chromedriver": "^2.21.2",
+    "glob": "^5.0.15",
+    "lodash": "^3.10.1",
+    "mocha": "^2.4.5",
+    "phantomjs": "^1.9.19",
+    "selenium-webdriver": "^2.52.0",
+    "toposort": "^0.2.12",
+    "yadda": "^0.15.5"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --reporter=spec --timeout=30000 tests/runtests.js"

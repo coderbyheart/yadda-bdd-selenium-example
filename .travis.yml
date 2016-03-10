@@ -1,0 +1,30 @@
+branches:
+  except:
+    - /^v[0-9]/
+
+language: node_js
+
+sudo: false
+
+env:
+  - SELENIUM_TEST_HOST="https://fintura.de"
+
+node_js:
+  - "stable"
+
+cache:
+  directories:
+    - node_modules
+
+before_install:
+  - npm i -g npm@^2.0.0
+
+install:
+  - npm install --no-shrinkwrap
+
+before_script:
+  - npm prune
+
+script:
+  - npm run test
+

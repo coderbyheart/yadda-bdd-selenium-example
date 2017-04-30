@@ -5,13 +5,13 @@
   "dependencies": {
     "chai": "^3.5.0",
     "chromedriver": "^2.21.2",
-    "glob": "^5.0.15",
-    "lodash": "^3.10.1",
-    "mocha": "^2.4.5",
-    "phantomjs": "^1.9.19",
-    "selenium-webdriver": "^2.52.0",
-    "toposort": "^0.2.12",
-    "yadda": "^0.15.5"
+    "glob": "^7.1.1",
+    "lodash": "^4.17.4",
+    "mocha": "^3.3.0",
+    "phantomjs": "^2.1.7",
+    "selenium-webdriver": "^3.4.0",
+    "toposort": "^1.0.3",
+    "yadda": "^1.3.0"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --reporter=spec --timeout=30000 tests/runtests.js"

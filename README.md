@@ -1,5 +1,7 @@
 # Use yadda with selenium to run website tests
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/coderbyheart/yadda-bdd-selenium-example.svg)](https://greenkeeper.io/)
+
 Slides: https://goo.gl/03zXZY
 
 ## Install dependencies
